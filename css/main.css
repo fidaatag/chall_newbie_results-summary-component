@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "Henken Grosteck";
+  font-weight: 500 700 800;
+  src: url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf) format("truetype");
+}
+* {
+  margin: 0;
+  font-family: "Henken Grosteck";
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 32px;
+  max-width: 750px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 6% auto;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+    border-radius: 0px;
+    max-width: 375px;
+    height: 100vh;
+    margin: auto;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+}
+.container .sec-1 {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  text-align: center;
+  padding: 60px 80px;
+  border-radius: 32px;
+}
+@media screen and (max-width: 768px) {
+  .container .sec-1 {
+    padding: 25px 50px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+  }
+}
+.container .sec-1 h3 {
+  color: hsl(241, 100%, 89%);
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.container .sec-1 .circle {
+  background: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .sec-1 .circle h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: hsl(0, 0%, 100%);
+}
+.container .sec-1 .circle p {
+  font-size: 12px;
+  font-weight: 500;
+  color: hsl(241, 100%, 89%);
+}
+.container .sec-1 h2 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  margin: 10px 0;
+}
+.container .sec-1 p {
+  color: hsl(241, 100%, 89%);
+  font-weight: 500;
+  font-size: 15px;
+}
+.container .sec-2 {
+  padding: 60px 50px;
+}
+@media screen and (max-width: 768px) {
+  .container .sec-2 {
+    padding: 20px;
+  }
+}
+.container .sec-2 ul {
+  list-style: none;
+  padding: 0;
+}
+.container .sec-2 ul li {
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.container .sec-2 ul li .score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .sec-2 ul li .score h3 {
+  margin: 0 7px;
+}
+.container .sec-2 ul .red {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+.container .sec-2 ul .red .score-title {
+  color: hsl(0, 100%, 67%);
+}
+.container .sec-2 ul .yellow {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+.container .sec-2 ul .yellow .score-title {
+  color: hsl(39, 100%, 56%);
+}
+.container .sec-2 ul .green {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+.container .sec-2 ul .green .score-title {
+  color: hsl(166, 100%, 37%);
+}
+.container .sec-2 ul .blue {
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+.container .sec-2 ul .blue .score-title {
+  color: hsl(234, 85%, 45%);
+}
+.container .sec-2 button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+.container .sec-2 button:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(224, 30%, 27%);
+}/*# sourceMappingURL=main.css.map */
