@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [](https://your-live-site-url.com)
+- Live Site URL: [Results summary component](https://chall-results-summary-component.netlify.app/)
 
 ## My process
 
